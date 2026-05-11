@@ -256,8 +256,8 @@ All plans include a **14-day free trial** of Pro features.
 ## Documentation
 
 - [Getting Started Guide](https://visualeaf.com/docs)
-- [Visual Query Builder](https://visualeaf.com/docs/visual-query-builder)
-- [Aggregation Pipeline](https://visualeaf.com/docs/aggregation-pipeline)
+- [Visual Query Builder](https://visualeaf.com/docs/mongo-query)
+- [Aggregation Pipeline](https://visualeaf.com/docs/aggregation)
 - [Schema Designer](https://visualeaf.com/docs/schema-designer)
 - [FAQ](https://visualeaf.com/faq)
 
