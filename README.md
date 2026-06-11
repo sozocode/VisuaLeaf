@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="https://visualeaf.com/assets/favicon.svg" alt="VisuaLeaf Logo" width="80" height="80">
+  <img src="https://visualeaf.com/assets/favicon.svg" alt="VisuaLeaf — MongoDB GUI logo" width="80" height="80">
 </p>
 
-<h1 align="center">VisuaLeaf</h1>
+<h1 align="center">VisuaLeaf — Visual MongoDB GUI for Developers</h1>
 
 <p align="center">
-  <strong>A Modern MongoDB GUI for Developers</strong>
+  <strong>Build MongoDB queries visually. Design aggregation pipelines. Visualize schemas. Generate queries with AI.</strong>
 </p>
 
 <p align="center">
-  Build queries visually. Design aggregation pipelines. Explore your data.
+  A modern <strong>MongoDB GUI</strong> and <strong>MongoDB client</strong> for macOS, Windows, and Linux. Explore, query, and understand your data — without memorizing syntax.
 </p>
 
 <p align="center">
@@ -21,7 +21,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-blue" alt="Platform">
+  <img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-blue" alt="Platform: macOS, Windows, Linux">
+  <img src="https://img.shields.io/badge/MongoDB-Atlas%20%7C%20Self--Hosted-13aa52" alt="MongoDB: Atlas and self-hosted">
   <img src="https://img.shields.io/badge/License-Proprietary-green" alt="License">
 </p>
 
@@ -29,194 +30,232 @@
 
 ## What is VisuaLeaf?
 
-VisuaLeaf is a visual MongoDB client that helps developers build queries, design aggregation pipelines, and understand their data—without memorizing syntax. Whether you're exploring a new database or optimizing production queries, VisuaLeaf gives you the tools to work faster.
-
-<p align="center">
-  <img src="https://release.sozocode.com/documentation/COLL01.png" alt="VisuaLeaf Screenshot" width="800">
-</p>
-
----
-
-## Key Features
-
-### Visual Query Builder
-Build MongoDB queries with a drag-and-drop interface. Select fields, add conditions, and see results instantly—no syntax memorization required.
+VisuaLeaf is a visual **MongoDB IDE** for developers, DBAs, and data teams. Drag-and-drop a query, prototype an aggregation pipeline, see your schema as a diagram, profile slow queries, build dashboards, and generate MongoDB with AI — all in one app. It connects directly to MongoDB Atlas, self-hosted clusters, or local databases.
 
 <p align="center">
   <a href="https://visualeaf.com/features/visual-query-builder/">
-    <img src="https://release.sozocode.com/documentation/COLL01.png" alt="Visual Query Builder" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/query-builder@2x.webp" alt="VisuaLeaf MongoDB GUI — visual query builder screenshot" width="850">
   </a>
 </p>
 
-[Learn more about Visual Query Builder →](https://visualeaf.com/features/visual-query-builder/)
+### Why teams choose VisuaLeaf
+
+- **Visual MongoDB query builder** — point, click, filter. No syntax memorization.
+- **Drag-and-drop aggregation pipeline designer** — preview data at every stage.
+- **AI MongoDB query generator** — describe what you want in plain English.
+- **Interactive schema diagrams** — understand collection structure and relationships at a glance.
+- **JSON Schema validation editor** — design, validate, and deploy schemas with full BSON support.
+- **Charts, dashboards, shell, SQL mode, GridFS, profiler, RBAC** — every MongoDB workflow, one app.
+- **Your data stays local** — direct connections, no proxy, no telemetry on your queries.
 
 ---
 
-### Aggregation Pipeline Designer
-Design complex aggregation pipelines visually. Add stages like `$match`, `$group`, `$lookup`, and `$project` with a few clicks. Preview data at each stage to debug faster.
+## Features
+
+### Visual MongoDB Query Builder
+Build MongoDB queries visually with filters and logic groups — no code required. Use field selectors, operator dropdowns, and condition builders to assemble powerful `find()` queries faster than writing them by hand. Perfect for developers of all skill levels and for exploring unfamiliar collections.
+
+<p align="center">
+  <a href="https://visualeaf.com/features/visual-query-builder/">
+    <img src="https://release.sozocode.com/features-screenshot/query-builder@2x.webp" alt="Visual MongoDB query builder — build queries without code" width="800">
+  </a>
+</p>
+
+[Explore the Visual Query Builder →](https://visualeaf.com/features/visual-query-builder/)
+
+---
+
+### MongoDB Aggregation Pipeline Builder
+Design and visualize complex MongoDB aggregation pipelines with a drag-and-drop stage palette. Add `$match`, `$group`, `$lookup`, `$project`, `$unwind`, and more — preview transformed data at each step, and switch between visual and code modes for full flexibility.
 
 <p align="center">
   <a href="https://visualeaf.com/features/aggregation-pipeline/">
-    <img src="https://release.sozocode.com/documentation/AGGR02.png" alt="Aggregation Pipeline Designer" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/aggregation-pipeline-visualeaf@2x.webp" alt="MongoDB aggregation pipeline builder — visual stage designer with live previews" width="800">
   </a>
 </p>
 
-[Learn more about Aggregation Pipeline →](https://visualeaf.com/features/aggregation-pipeline/)
+[Explore the Aggregation Pipeline Builder →](https://visualeaf.com/features/aggregation-pipeline/)
 
 ---
 
-### Schema Visualization
-Explore your database structure with interactive schema diagrams. Understand field types, relationships between collections, and data patterns at a glance.
+### MongoDB Schema Visualization & Diagrams
+Visualize MongoDB collections and relationships with interactive schema diagrams. Auto-discover field types, nested documents, and references between collections — ideal for onboarding to a new database, documenting data, or planning a redesign.
 
 <p align="center">
   <a href="https://visualeaf.com/features/visual-schema/">
-    <img src="https://release.sozocode.com/documentation/VSCH01.png" alt="Schema Visualization" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/schema-design-visualeaf@2x.webp" alt="MongoDB schema visualization — interactive diagram of collections and relationships" width="800">
   </a>
 </p>
 
-[Learn more about Schema Visualization →](https://visualeaf.com/features/visual-schema/)
+[Explore Schema Visualization →](https://visualeaf.com/features/visual-schema/)
 
 ---
 
-### AI-Powered Query Generation
-Describe what you want in plain English and let AI write the MongoDB query. Perfect for complex queries or learning MongoDB syntax.
+### MongoDB JSON Schema Validation
+Design and enforce MongoDB JSON Schema validation with a tree-based editor. Full BSON type support, validation rules, and one-click verification against live collections — create, edit, and deploy schemas without hand-writing JSON.
+
+<p align="center">
+  <a href="https://visualeaf.com/features/schema-validation/">
+    <img src="https://release.sozocode.com/features-screenshot/json-schema-visualeaf@2x.webp" alt="MongoDB JSON Schema validation editor with BSON type support" width="800">
+  </a>
+</p>
+
+[Explore JSON Schema Validation →](https://visualeaf.com/features/schema-validation/)
+
+---
+
+### AI Assistant for MongoDB Queries
+Generate MongoDB queries and aggregation pipelines from natural language. Describe what you want — "top 10 customers by revenue last quarter" — and the AI helper writes the query inside your visual workflow. Great for learning MongoDB syntax or accelerating complex pipelines.
 
 <p align="center">
   <a href="https://visualeaf.com/features/ai-helper/">
-    <img src="https://release.sozocode.com/documentation/AI-QUERY-01.png" alt="AI Query Generation" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/ai-assistant-visualeaf@2x.webp" alt="AI assistant generating MongoDB queries from natural language" width="800">
   </a>
 </p>
 
-[Learn more about AI Helper →](https://visualeaf.com/features/ai-helper/)
+[Explore the AI Helper →](https://visualeaf.com/features/ai-helper/)
 
 ---
 
-### Charts & Dashboards
-Transform query results into beautiful visualizations. Create bar charts, line graphs, pie charts, and more. Build dashboards to monitor your data in real-time.
+### MongoDB Chart Builder, Charts & Dashboards
+Turn MongoDB query results into bar charts, line graphs, pie charts, and dashboards. Drag-and-drop builder, no extra BI tool required — explore results visually and share insights with your team.
 
 <p align="center">
   <a href="https://visualeaf.com/features/chart-builder/">
-    <img src="https://release.sozocode.com/documentation/CHLS01.png" alt="Charts & Dashboards" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/charts-dashboards-visualeaf@2x.webp" alt="MongoDB chart builder and dashboards from query results" width="800">
   </a>
 </p>
 
-[Learn more about Charts & Dashboards →](https://visualeaf.com/features/chart-builder/)
+[Explore Charts & Dashboards →](https://visualeaf.com/features/chart-builder/)
 
 ---
 
-### MongoDB Shell
-Full MongoDB shell with syntax highlighting, autocomplete, and query history. Execute scripts, run administrative commands, and see visual output.
+### MongoDB Shell with Visual Output
+Run MongoDB shell commands with syntax highlighting, autocomplete, and history — then view results as a table, tree, or JSON. Execute scripts and admin commands without losing the readability of a visual client.
 
 <p align="center">
   <a href="https://visualeaf.com/features/mongo-shell/">
-    <img src="https://release.sozocode.com/documentation/SHEL01.png" alt="MongoDB Shell" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/mongo-shell@2x.webp" alt="MongoDB shell with visual output in table, tree, and JSON" width="800">
   </a>
 </p>
 
-[Learn more about MongoDB Shell →](https://visualeaf.com/features/mongo-shell/)
+[Explore the MongoDB Shell →](https://visualeaf.com/features/mongo-shell/)
 
 ---
 
-### SQL Mode
-Write SQL queries against your MongoDB data. VisuaLeaf translates SQL to MongoDB syntax automatically—great for developers transitioning from relational databases.
+### SQL Mode for MongoDB
+Query MongoDB with familiar SQL syntax. VisuaLeaf translates `SELECT`, `WHERE`, `GROUP BY`, and `JOIN` to MongoDB queries and aggregation pipelines automatically — a smooth onramp for analysts and developers coming from PostgreSQL or MySQL.
 
 <p align="center">
   <a href="https://visualeaf.com/features/sql-mode/">
-    <img src="https://release.sozocode.com/documentation/SQL01.png" alt="SQL Mode" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/sql-query-mode-visualeaf@2x.webp" alt="SQL mode for MongoDB — write SQL queries against MongoDB collections" width="800">
   </a>
 </p>
 
-[Learn more about SQL Mode →](https://visualeaf.com/features/sql-mode/)
+[Explore SQL Mode →](https://visualeaf.com/features/sql-mode/)
 
 ---
 
-### GridFS File Manager
-Browse, upload, download, and manage files stored in GridFS. Preview images and documents directly in the app.
+### MongoDB GridFS Viewer
+Browse, upload, download, and preview files stored in MongoDB GridFS. Familiar table view, drag-and-drop uploads with progress tracking, and inline previews for images, PDFs, and documents.
 
 <p align="center">
   <a href="https://visualeaf.com/features/gridfs-viewer/">
-    <img src="https://release.sozocode.com/documentation/GRID02.png" alt="GridFS File Manager" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/gridfs-viewer-visualeaf@2x.webp" alt="MongoDB GridFS viewer with file previews and drag-and-drop uploads" width="800">
   </a>
 </p>
 
-[Learn more about GridFS Viewer →](https://visualeaf.com/features/gridfs-viewer/)
+[Explore the GridFS Viewer →](https://visualeaf.com/features/gridfs-viewer/)
 
 ---
 
-### Collection Compare
-Compare collections side-by-side to identify differences. Perfect for syncing data between environments or auditing changes.
+### MongoDB Collection Compare
+Compare MongoDB collections side-by-side to spot structural or data differences. Sync between environments, audit changes after a deploy, and keep dev, staging, and production aligned.
 
 <p align="center">
   <a href="https://visualeaf.com/features/collection-compare/">
-    <img src="https://release.sozocode.com/documentation/COMP02.png" alt="Collection Compare" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/collection-compare-visualeaf@2x.webp" alt="MongoDB collection compare — side-by-side diff of collections" width="800">
   </a>
 </p>
 
-[Learn more about Collection Compare →](https://visualeaf.com/features/collection-compare/)
+[Explore Collection Compare →](https://visualeaf.com/features/collection-compare/)
 
 ---
 
-### Query Profiler
-Analyze query performance with execution plans, timing metrics, and index usage. Identify slow queries and get optimization recommendations.
+### MongoDB Query Profiler
+Analyze MongoDB query performance with execution plans, timing metrics, and index usage. Spot slow operations, understand `$explain` output, and get optimization recommendations to keep your database fast.
 
 <p align="center">
   <a href="https://visualeaf.com/features/query-profiler/">
-    <img src="https://release.sozocode.com/documentation/QPRF01.png" alt="Query Profiler" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/query-profiler-visualeaf@2x.webp" alt="MongoDB query profiler with execution plans and index analysis" width="800">
   </a>
 </p>
 
-[Learn more about Query Profiler →](https://visualeaf.com/features/query-profiler/)
+[Explore the Query Profiler →](https://visualeaf.com/features/query-profiler/)
 
 ---
 
 ### Split Panel Views
-Work with multiple collections, queries, or tools side-by-side. Drag tabs to split your workspace and maximize productivity.
+Work with multiple MongoDB collections, queries, or tools side-by-side. Split horizontally or vertically, drag tabs to reorganize, and compare results across databases or environments in one workspace.
 
 <p align="center">
   <a href="https://visualeaf.com/features/split-panel-views/">
-    <img src="https://release.sozocode.com/documentation/LAYT04.png" alt="Split Panel Views" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/split-panel-views-visualeaf@2x.webp" alt="Split panel views — compare MongoDB queries and data side by side" width="800">
   </a>
 </p>
 
-[Learn more about Split Panel Views →](https://visualeaf.com/features/split-panel-views/)
+[Explore Split Panel Views →](https://visualeaf.com/features/split-panel-views/)
 
 ---
 
-### Task Manager
-Schedule and manage background tasks like data exports, imports, and synchronization jobs.
+### MongoDB Task Manager (Import, Export, ETL)
+Run repeated MongoDB operations from one place: import, export, migration, schema transformation, data masking, and ETL workflows. Real-time monitoring and automation keep complex jobs consistent across projects.
 
 <p align="center">
   <a href="https://visualeaf.com/features/task-manager/">
-    <img src="https://release.sozocode.com/documentation/TASK-01.png" alt="Task Manager" width="700">
+    <img src="https://release.sozocode.com/features-screenshot/task-manager-visualeaf@2x.webp" alt="MongoDB task manager — import, export, and ETL automation" width="800">
   </a>
 </p>
 
-[Learn more about Task Manager →](https://visualeaf.com/features/task-manager/)
+[Explore the Task Manager →](https://visualeaf.com/features/task-manager/)
 
 ---
 
-### Connection Manager
-Organize and manage multiple MongoDB connections. Group by project, environment, or team. Switch between databases instantly.
+### MongoDB RBAC Dashboard
+Manage MongoDB users, roles, and permissions visually. Review who has access to which database and collection, audit privileges, and keep team access tidy — without hand-editing role documents.
 
 <p align="center">
-  <a href="https://visualeaf.com/features/connection-manager/">
-    <img src="https://release.sozocode.com/documentation/CONN01.png" alt="Connection Manager" width="700">
+  <a href="https://visualeaf.com/features/rbac-dashboard/">
+    <img src="https://release.sozocode.com/features-screenshot/rbac-dashboard-visualeaf@2x.webp" alt="MongoDB RBAC dashboard for users, roles, and permissions" width="800">
   </a>
 </p>
 
-[Learn more about Connection Manager →](https://visualeaf.com/features/connection-manager/)
+[Explore the RBAC Dashboard →](https://visualeaf.com/features/rbac-dashboard/)
+
+---
+
+### MongoDB Connection Manager
+Organize MongoDB connections for local, Atlas, and team environments in one place. Save connection profiles, group by project or environment, and switch between databases instantly — with SSH tunneling support for remote clusters.
+
+<p align="center">
+  <a href="https://visualeaf.com/features/connection-manager/">
+    <img src="https://release.sozocode.com/features-screenshot/connection-manager-visualeaf@2x.webp" alt="MongoDB connection manager for local, Atlas, and remote databases" width="800">
+  </a>
+</p>
+
+[Explore the Connection Manager →](https://visualeaf.com/features/connection-manager/)
 
 ---
 
 ## Security & Privacy
 
-**Your data stays local.** VisuaLeaf connects directly to your MongoDB instances—we never see, store, or transmit your data through our servers.
+**Your MongoDB data stays local.** VisuaLeaf connects directly from your machine to your MongoDB instances — we never see, store, or proxy your data.
 
-- **Direct connections** — Connect to localhost, Atlas, or any MongoDB instance directly
-- **SSH tunneling** — Secure connections through SSH for remote databases
-- **No cloud dependency** — Works fully offline after activation
-- **Credentials stored locally** — Connection details are encrypted and stored on your machine
-- **No telemetry on your data** — We don't track what queries you run or what data you access
+- **Direct connections** — localhost, MongoDB Atlas, or any self-hosted cluster
+- **SSH tunneling** — secure connections through bastion hosts
+- **Offline-capable** — works fully offline after activation
+- **Local credential storage** — connection details encrypted on your machine
+- **No query telemetry** — we don't track what you query or what data you access
 
 ---
 
@@ -224,16 +263,18 @@ Organize and manage multiple MongoDB connections. Group by project, environment,
 
 | Platform | Architecture | Download |
 |----------|--------------|----------|
-| macOS | Intel & Apple Silicon | [Download](https://visualeaf.com/download) |
-| Windows | x64 | [Download](https://visualeaf.com/download) |
-| Linux | x64, AppImage, deb | [Download](https://visualeaf.com/download) |
+| macOS    | Intel & Apple Silicon | [Download](https://visualeaf.com/download) |
+| Windows  | x64 | [Download](https://visualeaf.com/download) |
+| Linux    | x64, AppImage, deb | [Download](https://visualeaf.com/download) |
+
+Works with **MongoDB 4.x, 5.x, 6.x, 7.x, 8.x**, **MongoDB Atlas**, and self-hosted replica sets and sharded clusters.
 
 ---
 
 ## Getting Started
 
 1. **Download** VisuaLeaf from [visualeaf.com/download](https://visualeaf.com/download)
-2. **Install** the application on your system
+2. **Install** the application on macOS, Windows, or Linux
 3. **Connect** to your MongoDB instance (localhost, Atlas, or remote)
 4. **Explore** your data with visual tools
 
@@ -243,8 +284,8 @@ Organize and manage multiple MongoDB connections. Group by project, environment,
 
 | Plan | Price | Description |
 |------|-------|-------------|
-| **Community** | Free | Basic features, single connection |
-| **Pro** | $42 one-time | Full features, unlimited connections |
+| **Community** | Free | Core features, single connection |
+| **Pro** | $42 one-time | Full feature set, unlimited connections |
 | **Team** | $149/year | Collaboration, sharing, priority support |
 
 All plans include a **14-day free trial** of Pro features.
