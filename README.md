@@ -285,8 +285,8 @@ Works with **MongoDB 4.x, 5.x, 6.x, 7.x, 8.x**, **MongoDB Atlas**, and self-host
 | Plan | Price | Description |
 |------|-------|-------------|
 | **Community** | Free | Core features, single connection |
-| **Pro** | $42 one-time | Full feature set, unlimited connections |
-| **Team** | $149/year | Collaboration, sharing, priority support |
+| **Basic** | $79 one-time + 1 year of updates | Full feature set, unlimited connections |
+| **Team** | $299/year | Collaboration, sharing, priority support |
 
 All plans include a **14-day free trial** of Pro features.
 
