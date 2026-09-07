@@ -34,7 +34,7 @@ VisuaLeaf is a visual **MongoDB IDE** for developers, DBAs, and data teams. Drag
 
 <p align="center">
   <a href="https://visualeaf.com/features/visual-query-builder/">
-    <img src="https://release.sozocode.com/features-screenshot/query-builder@2x.webp" alt="VisuaLeaf MongoDB GUI — visual query builder screenshot" width="850">
+    <img src="https://release.sozocode.com/github/query-builder.webp" alt="VisuaLeaf MongoDB GUI — visual query builder screenshot" width="850">
   </a>
 </p>
 
@@ -59,7 +59,7 @@ Organize MongoDB connections for local, Atlas, and team environments in one plac
 
 <p align="center">
   <a href="https://visualeaf.com/features/connection-manager/">
-    <img src="https://release.sozocode.com/features-screenshot/connection-manager-visualeaf@2x.webp" alt="MongoDB connection manager for local, Atlas, and remote databases" width="800">
+    <img src="https://release.sozocode.com/github/connection-manager-visualeaf.webp" alt="MongoDB connection manager for local, Atlas, and remote databases" width="800">
   </a>
 </p>
 
@@ -72,7 +72,7 @@ Explore MongoDB documents three ways — tree view for nested data, table view f
 
 <p align="center">
   <a href="https://visualeaf.com/features/browse-collections/">
-    <img src="https://release.sozocode.com/features-screenshot/TreeView@2x.webp" alt="Browse MongoDB collections in tree, table, and BSON views" width="800">
+    <img src="https://release.sozocode.com/github/3Views.webp" alt="Browse MongoDB collections in tree, table, and BSON views" width="800">
   </a>
 </p>
 
@@ -85,7 +85,7 @@ Build MongoDB queries visually with filters and logic groups — no code require
 
 <p align="center">
   <a href="https://visualeaf.com/features/visual-query-builder/">
-    <img src="https://release.sozocode.com/features-screenshot/query-builder@2x.webp" alt="Visual MongoDB query builder — build queries without code" width="800">
+    <img src="https://release.sozocode.com/github/query-builder.webp" alt="Visual MongoDB query builder — build queries without code" width="800">
   </a>
 </p>
 
@@ -98,7 +98,7 @@ Design and visualize complex MongoDB aggregation pipelines with a drag-and-drop 
 
 <p align="center">
   <a href="https://visualeaf.com/features/aggregation-pipeline/">
-    <img src="https://release.sozocode.com/features-screenshot/aggregation-pipeline-visualeaf@2x.webp" alt="MongoDB aggregation pipeline builder — visual stage designer with live previews" width="800">
+    <img src="https://release.sozocode.com/github/aggregation-builder.webp" alt="MongoDB aggregation pipeline builder — visual stage designer with live previews" width="800">
   </a>
 </p>
 
@@ -111,7 +111,7 @@ Generate MongoDB queries and aggregation pipelines from natural language. Descri
 
 <p align="center">
   <a href="https://visualeaf.com/features/ai-helper/">
-    <img src="https://release.sozocode.com/features-screenshot/ai-assistant-visualeaf@2x.webp" alt="AI assistant generating MongoDB queries from natural language" width="800">
+    <img src="https://release.sozocode.com/github/ai-assistant-visualeaf.webp" alt="AI assistant generating MongoDB queries from natural language" width="800">
   </a>
 </p>
 
@@ -124,7 +124,7 @@ Query MongoDB with familiar SQL syntax. VisuaLeaf translates `SELECT`, `WHERE`, 
 
 <p align="center">
   <a href="https://visualeaf.com/features/sql-mode/">
-    <img src="https://release.sozocode.com/features-screenshot/sql-query-mode-visualeaf@2x.webp" alt="SQL mode for MongoDB — write SQL queries against MongoDB collections" width="800">
+    <img src="https://release.sozocode.com/github/sql-query-mode-visualeaf.webp" alt="SQL mode for MongoDB — write SQL queries against MongoDB collections" width="800">
   </a>
 </p>
 
@@ -137,7 +137,7 @@ Run MongoDB shell commands with syntax highlighting, autocomplete, and history �
 
 <p align="center">
   <a href="https://visualeaf.com/features/mongo-shell/">
-    <img src="https://release.sozocode.com/features-screenshot/mongo-shell@2x.webp" alt="MongoDB shell with visual output in table, tree, and JSON" width="800">
+    <img src="https://release.sozocode.com/github/mongo-shell.webp" alt="MongoDB shell with visual output in table, tree, and JSON" width="800">
   </a>
 </p>
 
@@ -150,7 +150,7 @@ Visualize MongoDB collections and relationships with interactive schema diagrams
 
 <p align="center">
   <a href="https://visualeaf.com/features/visual-schema/">
-    <img src="https://release.sozocode.com/features-screenshot/schema-design-visualeaf@2x.webp" alt="MongoDB schema visualization — interactive diagram of collections and relationships" width="800">
+    <img src="https://release.sozocode.com/github/schema-design-visualeaf.webp" alt="MongoDB schema visualization — interactive diagram of collections and relationships" width="800">
   </a>
 </p>
 
@@ -163,7 +163,7 @@ Design and enforce MongoDB JSON Schema validation with a tree-based editor. Full
 
 <p align="center">
   <a href="https://visualeaf.com/features/schema-validation/">
-    <img src="https://release.sozocode.com/features-screenshot/json-schema-visualeaf@2x.webp" alt="MongoDB JSON Schema validation editor with BSON type support" width="800">
+    <img src="https://release.sozocode.com/github/json-schema-visualeaf.webp" alt="MongoDB JSON Schema validation editor with BSON type support" width="800">
   </a>
 </p>
 
@@ -174,6 +174,12 @@ Design and enforce MongoDB JSON Schema validation with a tree-based editor. Full
 ### MongoDB Index Manager
 Create, view, and manage MongoDB indexes visually — single-field, compound, text, TTL, unique, and partial. Review index size and usage stats, spot missing or redundant indexes, and drop or rebuild them safely, all without shell syntax.
 
+<p align="center">
+  <a href="https://visualeaf.com/features/index-manager/">
+    <img src="https://release.sozocode.com/github/index-manager.webp" alt="MongoDB index manager — create and tune indexes visually with size and usage stats" width="800">
+  </a>
+</p>
+
 [Explore the Index Manager →](https://visualeaf.com/features/index-manager/)
 
 ---
@@ -183,7 +189,7 @@ Analyze MongoDB query performance with execution plans, timing metrics, and inde
 
 <p align="center">
   <a href="https://visualeaf.com/features/query-profiler/">
-    <img src="https://release.sozocode.com/features-screenshot/query-profiler-visualeaf@2x.webp" alt="MongoDB query profiler with execution plans and index analysis" width="800">
+    <img src="https://release.sozocode.com/github/query-profiler-visualeaf.webp" alt="MongoDB query profiler with execution plans and index analysis" width="800">
   </a>
 </p>
 
@@ -196,7 +202,7 @@ Compare MongoDB collections side-by-side to spot structural or data differences.
 
 <p align="center">
   <a href="https://visualeaf.com/features/collection-compare/">
-    <img src="https://release.sozocode.com/features-screenshot/collection-compare-visualeaf@2x.webp" alt="MongoDB collection compare — side-by-side diff of collections" width="800">
+    <img src="https://release.sozocode.com/github/collection-compare-visualeaf.webp" alt="MongoDB collection compare — side-by-side diff of collections" width="800">
   </a>
 </p>
 
@@ -207,6 +213,12 @@ Compare MongoDB collections side-by-side to spot structural or data differences.
 ### MongoSync — Sync & Migrate Data
 Sync, copy, and migrate data between MongoDB databases, collections, and environments. Move a local collection to Atlas, keep dev, staging, and production aligned, and run filtered or scheduled sync jobs with a safe dry-run preview before anything is written.
 
+<p align="center">
+  <a href="https://visualeaf.com/features/mongosync/">
+    <img src="https://release.sozocode.com/github/mongo-sync.webp" alt="MongoSync — sync and migrate MongoDB data between databases and environments" width="800">
+  </a>
+</p>
+
 [Explore MongoSync →](https://visualeaf.com/features/mongosync/)
 
 ---
@@ -216,7 +228,7 @@ Run repeated MongoDB operations from one place: import, export, migration, schem
 
 <p align="center">
   <a href="https://visualeaf.com/features/task-manager/">
-    <img src="https://release.sozocode.com/features-screenshot/task-manager-visualeaf-new-version@2x.webp" alt="MongoDB task manager — import, export, and ETL automation" width="800">
+    <img src="https://release.sozocode.com/github/task-manager-visual-hierarchy.webp" alt="MongoDB task manager — import, export, and ETL automation" width="800">
   </a>
 </p>
 
@@ -229,7 +241,7 @@ Browse, upload, download, and preview files stored in MongoDB GridFS. Familiar t
 
 <p align="center">
   <a href="https://visualeaf.com/features/gridfs-viewer/">
-    <img src="https://release.sozocode.com/features-screenshot/gridfs-viewer-visualeaf@2x.webp" alt="MongoDB GridFS viewer with file previews and drag-and-drop uploads" width="800">
+    <img src="https://release.sozocode.com/github/gridfs-viewer-visualeaf.webp" alt="MongoDB GridFS viewer with file previews and drag-and-drop uploads" width="800">
   </a>
 </p>
 
@@ -242,7 +254,7 @@ Turn MongoDB query results into bar charts, line graphs, pie charts, and dashboa
 
 <p align="center">
   <a href="https://visualeaf.com/features/chart-builder/">
-    <img src="https://release.sozocode.com/features-screenshot/charts-dashboards-visualeaf@2x.webp" alt="MongoDB chart builder and dashboards from query results" width="800">
+    <img src="https://release.sozocode.com/github/charts-dashboards-visualeaf.webp" alt="MongoDB chart builder and dashboards from query results" width="800">
   </a>
 </p>
 
@@ -255,7 +267,7 @@ Work with multiple MongoDB collections, queries, or tools side-by-side. Split ho
 
 <p align="center">
   <a href="https://visualeaf.com/features/split-panel-views/">
-    <img src="https://release.sozocode.com/features-screenshot/split-panel-views-visualeaf@2x.webp" alt="Split panel views — compare MongoDB queries and data side by side" width="800">
+    <img src="https://release.sozocode.com/github/split-panel-views-visualeaf.webp" alt="Split panel views — compare MongoDB queries and data side by side" width="800">
   </a>
 </p>
 
@@ -268,7 +280,7 @@ Manage MongoDB users, roles, and permissions visually. Review who has access to 
 
 <p align="center">
   <a href="https://visualeaf.com/features/rbac-dashboard/">
-    <img src="https://release.sozocode.com/features-screenshot/rbac-dashboard-visualeaf@2x.webp" alt="MongoDB RBAC dashboard for users, roles, and permissions" width="800">
+    <img src="https://release.sozocode.com/github/rbac-dashboard-visualeaf.webp" alt="MongoDB RBAC dashboard for users, roles, and permissions" width="800">
   </a>
 </p>
 
