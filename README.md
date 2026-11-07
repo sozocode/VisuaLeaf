@@ -29,6 +29,20 @@
   <img src="https://img.shields.io/badge/License-Proprietary-green" alt="License">
 </p>
 
+<p align="center">
+  <strong>English</strong> •
+  <a href="README.zh-CN.md">简体中文</a> •
+  <a href="README.zh-TW.md">繁體中文</a> •
+  <a href="README.ja.md">日本語</a> •
+  <a href="README.ko.md">한국어</a> •
+  <a href="README.es.md">Español</a> •
+  <a href="README.pt-BR.md">Português (Brasil)</a> •
+  <a href="README.de.md">Deutsch</a> •
+  <a href="README.fr.md">Français</a> •
+  <a href="README.ru.md">Русский</a> •
+  <a href="README.hi.md">हिन्दी</a>
+</p>
+
 ---
 
 ## What is VisuaLeaf?
@@ -82,7 +96,7 @@ Keep MongoDB, PostgreSQL, MySQL, SQL Server, SQLite and other connections in one
 
 <p align="center">
   <a href="https://visualeaf.com/features/connection-manager/">
-    <img src="https://release.sozocode.com/features-screenshot/connection-manager-visualeaf.webp" alt="Connection manager for MongoDB and SQL databases" width="800">
+    <img src="https://visualeaf.com/assets/screenshots/features/connection-manager/overview.webp" alt="VisuaLeaf Connection Manager with a project tree of environments and connections" width="800">
   </a>
 </p>
 
@@ -159,7 +173,7 @@ A query that's quick on ten thousand rows can crawl on ten million. The profiler
 
 <p align="center">
   <a href="https://visualeaf.com/features/query-profiler/">
-    <img src="https://release.sozocode.com/features-screenshot/query-profiler-visualeaf.webp" alt="Query profiler with execution plans and index analysis" width="800">
+    <img src="https://visualeaf.com/assets/documentation/query-profiler/profiler_overview.webp" alt="Query Profiler with an execution-time timeline and queries grouped by shape" width="800">
   </a>
 </p>
 
@@ -172,7 +186,7 @@ Chart the results of a SQL query or a MongoDB aggregation with 20+ chart types, 
 
 <p align="center">
   <a href="https://visualeaf.com/features/charts-dashboard/">
-    <img src="https://release.sozocode.com/features-screenshot/charts-dashboards-visualeaf.webp" alt="Charts and dashboards built from database query results" width="800">
+    <img src="https://visualeaf.com/assets/hero/charts-dashboards-visualeaf-1350w.webp" alt="Dashboard of store sales with line, donut, pie, heatmap, funnel and radar charts" width="800">
   </a>
 </p>
 
@@ -185,7 +199,7 @@ Run imports, exports, and migrations between MongoDB, SQL databases, and files (
 
 <p align="center">
   <a href="https://visualeaf.com/features/task-manager/">
-    <img src="https://release.sozocode.com/features-screenshot/task-manager-visualeaf-new-version@2x.webp" alt="Task manager for imports, exports, and migrations between databases" width="800">
+    <img src="https://visualeaf.com/assets/screenshots/features/task-manager/list-details.webp" alt="Data Transfer with tasks in folders on the left and the selected task's details on the right" width="800">
   </a>
 </p>
 
@@ -267,7 +281,7 @@ Design and enforce MongoDB JSON Schema validation with a tree-based editor. Full
 
 <p align="center">
   <a href="https://visualeaf.com/features/schema-validation/">
-    <img src="https://release.sozocode.com/features-screenshot/json-schema-visualeaf.webp" alt="MongoDB JSON Schema validation editor with BSON type support" width="800">
+    <img src="https://visualeaf.com/assets/screenshots/features/schema-validation/schema-builder.webp" alt="Schema Builder showing a validator with required fields, BSON types and rules" width="800">
   </a>
 </p>
 
@@ -293,7 +307,7 @@ Compare MongoDB collections side by side to spot structural or data differences.
 
 <p align="center">
   <a href="https://visualeaf.com/features/collection-compare/">
-    <img src="https://release.sozocode.com/features-screenshot/collection-compare-visualeaf.webp" alt="MongoDB collection compare showing a side-by-side diff" width="800">
+    <img src="https://visualeaf.com/assets/screenshots/features/data-compare/setup.webp" alt="Data Compare canvas pairing collections and tables in a source and a target database" width="800">
   </a>
 </p>
 
@@ -332,7 +346,7 @@ Manage users, roles, and permissions visually. Review who has access to which da
 
 <p align="center">
   <a href="https://visualeaf.com/features/rbac-dashboard/">
-    <img src="https://release.sozocode.com/features-screenshot/rbac-dashboard-visualeaf.webp" alt="RBAC dashboard for users, roles, and permissions" width="800">
+    <img src="https://visualeaf.com/assets/documentation/access-control/dashboard_overview.webp" alt="Users and Roles dashboard with user, role and session counts and quick actions" width="800">
   </a>
 </p>
 
